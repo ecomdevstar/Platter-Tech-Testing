@@ -267,7 +267,7 @@
         <div class="swiper-scrollbar bg-[#DDD6D7] cursor-pointer hidden md:block"></div>
       </div>
       <div class="px-[20px] md:px-[80px] md:hidden">
-        <a href="javascript:void(0)" class="show-more-button text-[#5C553A] font-poppins text-[14px] font-[600] items-center gap-[8px] hidden md:flex">Show More</a>
+        <a href="javascript:void(0)" class="show-more-button text-[#FFFFFA] bg-[#1C1D1D] font-poppins text-[16px] font-[600] rounded-[50px] py-[14px] block text-center">Show More</a>
       </div>
     </div>
   </section>
@@ -316,6 +316,16 @@
           },
         });
       }
+
+      var slides = document.querySelectorAll('.swiper .swiper-wrapper .swiper-slide');
+      var showMoreButton = document.querySelector('.show-more-button');
+
+      showMoreButton.addEventListener('click', function() {
+        slides.forEach(function(slide) {
+          slide.classList.remove('hidden');
+        });
+        showMoreButton.style.display = 'none';
+      });
     });
   </script>
 </body>
