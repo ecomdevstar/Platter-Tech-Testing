@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Source Serif Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Source Serif Pro Regular'), url('./SourceSerifPro-Regular.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Source Serif Pro ExtraLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Source Serif Pro ExtraLight'), url('./SourceSerifPro-ExtraLight.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Source Serif Pro Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Source Serif Pro Light'), url('./SourceSerifPro-Light.woff') format('woff');
+}    
+
+@font-face {
+    font-family: 'Source Serif Pro SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Source Serif Pro SemiBold'), url('./SourceSerifPro-SemiBold.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Source Serif Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Source Serif Pro Bold'), url('./SourceSerifPro-Bold.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Source Serif Pro Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Source Serif Pro Black'), url('./SourceSerifPro-Black.woff') format('woff');
+}
+
+.swiper .swiper-scrollbar {
+    position: static;
+}
+
+.swiper .swiper-scrollbar .swiper-scrollbar-drag {
+    outline: 1px solid #231F20;
+    background-color: #231F20;
+}
